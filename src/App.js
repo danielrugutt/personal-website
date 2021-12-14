@@ -9,6 +9,7 @@ import ResumePage from './Pages/ResumePage';
 import PortfoliosPage from './Pages/PortfoliosPage';
 import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
+import CS225VideoPage from './Pages/CS225VideoPage';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Route, Switch as Switching } from "react-router";
@@ -89,6 +90,9 @@ function App() {
             </Route>
             <Route path="/contact" exact>
               <HomePage />
+            </Route>
+            <Route path="/cs225-final-project-video">
+              <CS225VideoPage />
             </Route>
           </Switching>
 
